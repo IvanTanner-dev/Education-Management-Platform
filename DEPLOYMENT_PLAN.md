@@ -58,6 +58,8 @@ Successfully restored LMS to fully functional state after production deployment 
    - **Database:** PostgreSQL (provisioned by Railway)
 
 3. **Deployment Configuration**
+   - **Frontend Variable:** Set `VITE_API_URL` to your Backend Railway URL (e.g., `https://backend-production.up.railway.app`)
+   - **Backend Variable:** Set `CSRF_TRUSTED_ORIGINS` and `CORS_ALLOWED_ORIGINS` to your Frontend Railway URL.
    - Update CORS settings for production domains
    - Configure environment variables for production
    - Set up SSL certificates

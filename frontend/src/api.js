@@ -1,11 +1,19 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+const baseURL =
+  import.meta.env.VITE_API_URL ||
+  import.meta.env.VITE_API_BASE_URL ||
+  "http://127.0.0.1:8000";
+
+if (import.meta.env.DEV) {
+  console.log("API Base URL:", baseURL);
+}
 // In unit tests, `axios` may be mocked and `create()` may exist but return `undefined`.
 // Fall back to the mocked axios object to avoid crashing at import time.
 const createdApi =
   typeof axios?.create === "function" ? axios.create({ baseURL }) : undefined;
-const api = createdApi && typeof createdApi?.get === "function" ? createdApi : axios;
+const api =
+  createdApi && typeof createdApi?.get === "function" ? createdApi : axios;
 
 // Establish global authorization logic by injecting JWT tokens into outgoing requests.
 if (api?.interceptors?.request?.use) {
