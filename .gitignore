@@ -2,5 +2,5 @@ db.sqlite3
 __pycache__/
 node_modules/
 venv/
-.envcd backend
+.env 
 Students.txt
