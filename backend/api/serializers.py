@@ -24,6 +24,7 @@ class CourseSerializer(serializers.ModelSerializer):
     lessons = LessonSerializer(many=True, read_only=True)
     
     teacher_name = serializers.SerializerMethodField()
+    teacher_username = serializers.CharField(source='teacher.username', read_only=True)
     is_enrolled = serializers.SerializerMethodField()
     progress_percentage = serializers.SerializerMethodField()
 
@@ -35,6 +36,7 @@ class CourseSerializer(serializers.ModelSerializer):
             'description', 
             'teacher',
             'teacher_name', 
+            'teacher_username',
             'lessons', 
             'students',
             'is_enrolled',

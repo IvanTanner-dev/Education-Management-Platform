@@ -11,6 +11,7 @@ from .serializers import (
     LessonSerializer,
     AdminUserEditSerializer
 )
+from .permissions import IsTeacherRole, IsTeacherOrReadOnly
 from .models import Course, Lesson, LessonProgress
 
 User = get_user_model()
@@ -22,12 +23,14 @@ class CourseViewSet(viewsets.ModelViewSet):
     def get_permissions(self):
         """
         Enforce role-based access control (RBAC):
-        - Staff manage content (CUD).
+        - Teachers manage their own content (CUD).
         - Students interact with specific course actions (Enroll/View Enrolled).
         - Anonymous users can browse the catalog.
         """
-        if self.action in ['create', 'update', 'partial_update', 'destroy']:
-            return [permissions.IsAdminUser()] 
+        if self.action in ['create']:
+            return [IsAuthenticated(), IsTeacherRole()]
+        if self.action in ['update', 'partial_update', 'destroy', 'add_student']:
+            return [IsAuthenticated(), IsTeacherOrReadOnly()] 
         if self.action in ['enroll', 'enrolled']:
             return [permissions.IsAuthenticated()]
         return [permissions.AllowAny()]
@@ -42,6 +45,17 @@ class CourseViewSet(viewsets.ModelViewSet):
         # Persist the enrollment relationship in the Many-to-Many join table.
         course.students.add(request.user)
         return Response({"status": "enrolled"}, status=status.HTTP_200_OK)
+
+    @action(detail=True, methods=['post'], permission_classes=[IsAuthenticated, IsTeacherOrReadOnly])
+    def add_student(self, request, pk=None):
+        course = self.get_object()
+        username = request.data.get('username')
+        try:
+            student = User.objects.get(username=username)
+            course.students.add(student)
+            return Response({"status": "student added"}, status=status.HTTP_200_OK)
+        except User.DoesNotExist:
+            return Response({"error": "User not found"}, status=status.HTTP_404_NOT_FOUND)
     
     @action(detail=False, methods=['get'], permission_classes=[IsAuthenticated])
     def enrolled(self, request):

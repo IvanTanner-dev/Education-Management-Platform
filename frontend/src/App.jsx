@@ -164,6 +164,7 @@ function App() {
                 <InstructorDashboard
                   courses={courses}
                   setCourses={setCourses}
+                  user={user}
                 />
               }
             />

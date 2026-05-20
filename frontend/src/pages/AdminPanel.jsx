@@ -247,10 +247,14 @@ const AdminPanel = () => {
             <form onSubmit={handleUpdateUser} className="p-6 space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-bold text-slate-400 uppercase mb-1">
+                  <label 
+                    htmlFor="first_name"
+                    className="block text-xs font-bold text-slate-400 uppercase mb-1"
+                  >
                     First Name
                   </label>
                   <input
+                    id="first_name"
                     type="text"
                     name="first_name"
                     value={editFormData.first_name}
@@ -259,10 +263,14 @@ const AdminPanel = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-slate-400 uppercase mb-1">
+                  <label 
+                    htmlFor="last_name"
+                    className="block text-xs font-bold text-slate-400 uppercase mb-1"
+                  >
                     Last Name
                   </label>
                   <input
+                    id="last_name"
                     type="text"
                     name="last_name"
                     value={editFormData.last_name}
@@ -272,10 +280,14 @@ const AdminPanel = () => {
                 </div>
               </div>
               <div>
-                <label className="block text-xs font-bold text-slate-400 uppercase mb-1">
+                <label 
+                  htmlFor="email"
+                  className="block text-xs font-bold text-slate-400 uppercase mb-1"
+                >
                   Email Address
                 </label>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   value={editFormData.email}
@@ -284,10 +296,14 @@ const AdminPanel = () => {
                 />
               </div>
               <div>
-                <label className="block text-xs font-bold text-slate-400 uppercase mb-1">
+                <label 
+                  htmlFor="role"
+                  className="block text-xs font-bold text-slate-400 uppercase mb-1"
+                >
                   System Role
                 </label>
                 <select
+                  id="role"
                   name="role"
                   value={editFormData.role}
                   onChange={handleEditFormChange}

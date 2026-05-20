@@ -3,14 +3,27 @@ import api from "../api";
 import { Link } from "react-router-dom";
 import Analytics from "../components/Analytics";
 
-const InstructorDashboard = ({ courses, setCourses }) => {
+const InstructorDashboard = ({ courses, setCourses, user }) => {
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({ title: "", description: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [selectedCourseAnalytics, setSelectedCourseAnalytics] = useState(null);
 
-  // Filters the courses to show only yours - Note: course data structure uses 'teacher' field
-  const myCourses = courses.filter((c) => c.teacher === "teacher_ivan");
+  // Edit Course State
+  const [editingCourse, setEditingCourse] = useState(null);
+  const [editFormData, setEditFormData] = useState({
+    title: "",
+    description: "",
+  });
+
+  // Add Student State
+  const [addingStudentTo, setAddingStudentTo] = useState(null);
+  const [studentUsername, setStudentUsername] = useState("");
+
+  // Filters the courses to show only yours
+  const myCourses = courses.filter(
+    (c) => c.teacher_username === user?.username,
+  );
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,24 +31,145 @@ const InstructorDashboard = ({ courses, setCourses }) => {
 
     try {
       const response = await api.post("/api/courses/", formData);
-
-      // Add the new course to our local state so it appears immediately
       setCourses([...courses, response.data]);
-
-      // Reset the form
       setFormData({ title: "", description: "" });
       setShowForm(false);
       alert("Course created successfully!");
     } catch (error) {
       console.error("Error creating course:", error.response?.data);
-      alert("Failed to create course. Check the console for details.");
+      alert("Failed to create course.");
     } finally {
       setIsSubmitting(false);
     }
   };
 
+  const handleEditCourse = (course) => {
+    setEditingCourse(course);
+    setEditFormData({
+      title: course.title,
+      description: course.description,
+    });
+  };
+
+  const handleUpdateCourse = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await api.patch(
+        `/api/courses/${editingCourse.id}/`,
+        editFormData,
+      );
+      setCourses(
+        courses.map((c) => (c.id === editingCourse.id ? response.data : c)),
+      );
+      setEditingCourse(null);
+      alert("Course updated!");
+    } catch (error) {
+      console.error("Update failed:", error);
+      alert("Failed to update course.");
+    }
+  };
+
+  const handleAddStudent = async (e) => {
+    e.preventDefault();
+    try {
+      await api.post(`/api/courses/${addingStudentTo.id}/add_student/`, {
+        username: studentUsername,
+      });
+      alert(`Student @${studentUsername} added to course!`);
+      setStudentUsername("");
+      setAddingStudentTo(null);
+      // Optionally refresh courses to update student count
+      const res = await api.get("/api/courses/");
+      setCourses(res.data);
+    } catch (error) {
+      console.error("Add student failed:", error);
+      alert(error.response?.data?.error || "Failed to add student.");
+    }
+  };
+
   return (
     <div className="space-y-8 p-4 md:p-0">
+      {/* MODALS */}
+      {editingCourse && (
+        <div className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md p-6 space-y-4">
+            <h2 className="text-xl font-black text-slate-900">Edit Course</h2>
+            <form onSubmit={handleUpdateCourse} className="space-y-4">
+              <input
+                className="w-full p-3 border rounded-xl"
+                value={editFormData.title}
+                onChange={(e) =>
+                  setEditFormData({ ...editFormData, title: e.target.value })
+                }
+                placeholder="Course Title"
+                required
+              />
+              <textarea
+                className="w-full p-3 border rounded-xl h-32"
+                value={editFormData.description}
+                onChange={(e) =>
+                  setEditFormData({
+                    ...editFormData,
+                    description: e.target.value,
+                  })
+                }
+                placeholder="Course Description"
+                required
+              />
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => setEditingCourse(null)}
+                  className="flex-1 px-4 py-2 bg-slate-100 rounded-xl font-bold"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-xl font-bold"
+                >
+                  Save
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {addingStudentTo && (
+        <div className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md p-6 space-y-4">
+            <h2 className="text-xl font-black text-slate-900">
+              Add Student to: {addingStudentTo.title}
+            </h2>
+            <form onSubmit={handleAddStudent} className="space-y-4">
+              <input
+                className="w-full p-3 border rounded-xl"
+                value={studentUsername}
+                onChange={(e) => setStudentUsername(e.target.value)}
+                placeholder="Student Username"
+                required
+              />
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => setAddingStudentTo(null)}
+                  className="flex-1 px-4 py-2 bg-slate-100 rounded-xl font-bold"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-xl font-bold"
+                >
+                  Add Student
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
       {/* ANALYTICS OVERLAY/VIEW */}
       {selectedCourseAnalytics && (
         <div className="bg-slate-50 border border-slate-200 rounded-3xl p-6 md:p-8 space-y-6 animate-in fade-in zoom-in-95 duration-300">
@@ -143,8 +277,20 @@ const InstructorDashboard = ({ courses, setCourses }) => {
                       to={`/instructor/course/${course.id}/lessons`}
                       className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-blue-600 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
                     >
-                      Edit Lessons
+                      Lessons
                     </Link>
+                    <button
+                      onClick={() => handleEditCourse(course)}
+                      className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-indigo-600 bg-indigo-50 rounded-lg hover:bg-indigo-100 transition-colors"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      onClick={() => setAddingStudentTo(course)}
+                      className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-emerald-600 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors"
+                    >
+                      + Student
+                    </button>
                     <button
                       onClick={() => setSelectedCourseAnalytics(course)}
                       className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-slate-600 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
