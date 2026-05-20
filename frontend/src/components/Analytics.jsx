@@ -39,7 +39,6 @@ const Analytics = ({ courses }) => {
     { name: "In Progress", value: inProgress, color: "#6366F1" },
     { name: "Available", value: available, color: "#94A3B8" },
   ];
-  console.log("Pie Data Check:", pieData);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">

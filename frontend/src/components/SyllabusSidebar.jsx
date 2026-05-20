@@ -7,7 +7,7 @@ const SyllabusSidebar = ({ lessons, selectedLesson, onSelectLesson }) => {
     lessons.length > 0
       ? Math.round((completedCount / lessons.length) * 100)
       : 0;
-  console.log("Lessons in Child:", lessons);
+
   return (
     <div className="w-80 bg-white border-l border-slate-200 h-full overflow-y-auto p-4">
       <h2 className="font-bold text-slate-800 mb-4 text-lg">Course Content</h2>
