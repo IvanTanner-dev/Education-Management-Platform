@@ -1,6 +1,35 @@
+# Database
 db.sqlite3
+db.sqlite3-journal
+
+# Python
 __pycache__/
-node_modules/
+*.py[cod]
+*$py.class
 venv/
-.env 
+.venv/
+env/
+.env
+.env.local
+.env.*
+secret_key.env
+
+# Frontend
+node_modules/
+dist/
+build/
+.eslintcache
+
+# Static files
+backend/staticfiles/
+
+# Logs and sensitive data
+*.log
 Students.txt
+all_data.json
+courses.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

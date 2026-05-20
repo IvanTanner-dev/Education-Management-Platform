@@ -1,1 +1,1164 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2026-01-26T08:03:31.940Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Key Stage 3: Algebra", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2026-01-26T08:13:24.921Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Key Stage 3: Algebra - 1: Expressions", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2026-01-26T08:14:21.807Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Key Stage 3: Algebra - 2: Simplifying expressions", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2026-01-26T09:25:46.746Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Key Stage 3: Algebra", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Students\"]}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2026-01-26T09:44:10.230Z", "user": 1, "content_type": 4, "object_id": "2", "object_repr": "student_one", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2026-02-02T12:09:33.693Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Key Stage 3: Algebra - 2: Simplifying expressions", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2026-02-02T12:09:40.548Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Key Stage 3: Algebra - 1: Expressions", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2026-02-04T06:52:24.312Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Key Stage 3: Algebra - 1: Expressions", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2026-02-04T06:52:50.427Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Key Stage 3: Algebra - 1: Expressions", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2026-02-04T06:54:42.379Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Key Stage 3: Algebra - 2: Simplifying expressions", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2026-02-04T08:37:42.016Z", "user": 1, "content_type": 4, "object_id": "3", "object_repr": "student_two", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2026-02-04T08:47:58.693Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "KS3: Geometry", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2026-02-04T08:48:29.347Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Key Stage 3: Geometry", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2026-02-04T08:52:40.108Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "Key Stage 3: Geometry - Angle drawing and measuring", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2026-02-04T08:53:44.257Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "Key Stage 3: Geometry - Label and name angles", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2026-02-04T08:55:31.976Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "Key Stage 3: Geometry - Measure obtuse and reflex angles", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2026-02-04T11:10:54.533Z", "user": 1, "content_type": 4, "object_id": "4", "object_repr": "student_three", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2026-02-20T09:30:50.951Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "guest", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2026-02-20T09:33:37.374Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Key Stage 3: Algebra", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Students\"]}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2026-02-20T09:33:42.892Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Key Stage 3: Geometry", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Students\"]}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2026-02-20T09:36:44.882Z", "user": 1, "content_type": 4, "object_id": "5", "object_repr": "guest", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2026-02-20T10:14:05.702Z", "user": 1, "content_type": 4, "object_id": "4", "object_repr": "student_three", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2026-02-23T11:11:30.856Z", "user": 1, "content_type": 8, "object_id": "7", "object_repr": "Key Stage 4: Probability - Calculate the probabilities of dependent combined events", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2026-02-23T11:12:13.804Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "Key Stage 4: Probability - Calculate the probabilities of independent combined events", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2026-02-23T11:12:18.440Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "Key Stage 4: Probability - Calculate the probabilities of independent combined events", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2026-02-23T11:12:24.607Z", "user": 1, "content_type": 8, "object_id": "7", "object_repr": "Key Stage 4: Probability - Calculate the probabilities of dependent combined events", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2026-04-27T10:55:35.531Z", "user": 1, "content_type": 4, "object_id": "1", "object_repr": "teacher_ivan", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2026-04-27T11:52:37.138Z", "user": 11, "content_type": 4, "object_id": "1", "object_repr": "teacher_ivan", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2026-04-27T13:25:02.012Z", "user": 11, "content_type": 4, "object_id": "11", "object_repr": "superadmin", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$1200000$EEA1JAFAGoIXYiPGsH1bRx$MzbdIirdwxAXcoW2vmvAiJANrYqZ7bDCfSnzG1aWbjs=", "last_login": "2026-04-27T11:06:32.530Z", "is_superuser": true, "username": "teacher_ivan", "first_name": "", "last_name": "", "email": "", "is_staff": true, "is_active": true, "date_joined": "2026-01-24T14:36:41Z", "groups": [], "user_permissions": [1, 2, 3, 4, 25, 26, 27, 28, 41, 42, 43, 44, 29, 30, 31, 32, 37, 38, 39, 40, 33, 34, 35, 36, 9, 10, 11, 12, 5, 6, 7, 8, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]}}, {"model": "auth.user", "pk": 2, "fields": {"password": "pbkdf2_sha256$1200000$jGdyjPWY9pIPUz3qVdif69$1IlZ8++pytY783NpUrK0JbZCq/uA+4eN32ZUkCc6hw0=", "last_login": "2026-01-26T09:48:36.951Z", "is_superuser": false, "username": "student_one", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2026-01-26T09:44:09.773Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "pbkdf2_sha256$1200000$T2uiAGzWJnGl7P58UhcMOD$/UGvGx76+Q1/07wHzoPxXe7JZv5ePv3VSMkOTZwyWno=", "last_login": null, "is_superuser": false, "username": "student_two", "first_name": "", "last_name": "", "email": "", "is_staff": false, "is_active": true, "date_joined": "2026-02-04T08:37:41.519Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "pbkdf2_sha256$1200000$LLuGtWrftTpmRnNibisFWq$zL2bx+Swiqw3MSBtEbW60EcImLk5f0C48BhUL2qR518=", "last_login": null, "is_superuser": false, "username": "student_three", "first_name": "Joe", "last_name": "Bloggs", "email": "", "is_staff": false, "is_active": true, "date_joined": "2026-02-04T11:10:54Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 5, "fields": {"password": "pbkdf2_sha256$1200000$Vo09EQuO0j44JC09Zo1YNe$DAhRhDub8IHGx/g0m5ZQjT8EW3o94PD2dNWkv1/EEZE=", "last_login": null, "is_superuser": false, "username": "student_four", "first_name": "Guest", "last_name": "Account", "email": "", "is_staff": false, "is_active": true, "date_joined": "2026-02-20T09:30:50Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 6, "fields": {"password": "pbkdf2_sha256$1200000$wNcqFlRfeHAuhF38sVd20V$Cuc303DLnOcFklqW9HCEUcpVRWY5bgbZ/1V9Cpnn6V4=", "last_login": null, "is_superuser": false, "username": "student_five", "first_name": "joe", "last_name": "bloggs", "email": "joebloggs@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2026-03-18T11:54:23.473Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 7, "fields": {"password": "pbkdf2_sha256$1200000$ZXjIfcvJ4WwE2n6AW7ORH3$QntroHjPwF8nqa1ouCqPiUNf+abLWhHK+LbcT6gJsQs=", "last_login": null, "is_superuser": true, "username": "render_admin", "first_name": "", "last_name": "", "email": "admin@example.com", "is_staff": true, "is_active": true, "date_joined": "2026-04-22T14:16:14.281Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 8, "fields": {"password": "pbkdf2_sha256$1200000$mhoeBv4YobnCSybOD6iMCV$TlejpgjT8C92rw2gQUxMuow3Thi5chGBk71kGmUrCZU=", "last_login": "2026-04-27T11:01:43.527Z", "is_superuser": false, "username": "recruiter_demo", "first_name": "", "last_name": "", "email": "recruiter@demo.com", "is_staff": false, "is_active": true, "date_joined": "2026-04-22T14:16:14.739Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 9, "fields": {"password": "pbkdf2_sha256$1200000$zWsr0Pp92L25cFwoRIbzKD$H+deLn3oMq0olhFYTZ20PMLS0iA3xrXjuR/62RtUKgE=", "last_login": null, "is_superuser": false, "username": "hiring_manager", "first_name": "", "last_name": "", "email": "hiring@demo.com", "is_staff": false, "is_active": true, "date_joined": "2026-04-22T14:16:15.190Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 10, "fields": {"password": "pbkdf2_sha256$1200000$o0BibVF7YqUoLuzi3AT6Qf$j9s7g3yBpBw0Mtnz+4qX59GAza0ZrjjX3ok5FJcjidg=", "last_login": null, "is_superuser": false, "username": "tech_recruiter", "first_name": "", "last_name": "", "email": "tech@demo.com", "is_staff": false, "is_active": true, "date_joined": "2026-04-22T14:16:15.644Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 11, "fields": {"password": "pbkdf2_sha256$1200000$WziSXIduWhNsulBWvIFajs$QVKvqhzDxs3BivnrYrkhM5fzUYdzev8Fh4gGjgtNth4=", "last_login": "2026-04-27T11:38:36Z", "is_superuser": true, "username": "superadmin", "first_name": "", "last_name": "", "email": "admin@lms.com", "is_staff": true, "is_active": true, "date_joined": "2026-04-27T11:37:04Z", "groups": [], "user_permissions": [1, 2, 3, 4, 25, 26, 27, 28, 41, 42, 43, 44, 29, 30, 31, 32, 37, 38, 39, 40, 33, 34, 35, 36, 9, 10, 11, 12, 5, 6, 7, 8, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]}}, {"model": "sessions.session", "pk": "5loxq5ledad3gvz26vcatrjwwimcmja9", "fields": {"session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1vx1MR:qeqLiGa2FqXcVYMw6aNEvX2OLr-JEfQGSKwMUv6IpaA", "expire_date": "2026-03-16T11:22:51.131Z"}}, {"model": "sessions.session", "pk": "7fqwewgs4y20r37m1kzfd7eb7mopvfp6", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hAGKFSX7nsGMsNMpWpoUtqV8e7apAvd_vfef6mE21rS1mRJE6uLAlCn35EwP6TuhO9Yb7POc12XifSu6IM2Pcwsz-vh_h0UbOVbm9CP4mLonc8RMowA1rDlDGACdmSctWfskMV5wEAEEiXb6CzGQB7U-wPpbDd3:1wHKVx:9g2MIDj-D_uINmgGiRQ-PhtPAduGU2GZfy9FEg-RkuM", "expire_date": "2026-05-11T11:52:37.148Z"}}, {"model": "sessions.session", "pk": "9s0oo7vslywlxipio6asrz7q79yrdtfj", "fields": {"session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1wCtxB:9oQGDK4mm1JoTdFixPS3riN-4snqYkp-xMpzs9g7wok", "expire_date": "2026-04-29T06:42:25.733Z"}}, {"model": "sessions.session", "pk": "b3lom8825orfwzd8mjvozzvs80tkb98l", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlmyYztrSnrOYO0vJIASKU4qxN3BUgpoXvFmNC9TcN_GslddyyTmbJw5_X6E_NC5AbnjfFssL_O2TmSbYg9a7XURfV4O9y8wYh1bFhRZIOaU1UHsUFPMMQ4dkygQCnBiH9J3A4GHnBxpT56pHwJKMO8P99s4rQ:1vkKdg:M0PY1tEsg3tP7bLcZJWvuhR2j7KELEIkBxl-pCpf4mM", "expire_date": "2026-02-09T11:20:12.552Z"}}, {"model": "sessions.session", "pk": "cgekgdl63hzmbyqidm0drigt4w289w5e", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlmyYztrSnrOYO0vJIASKU4qxN3BUgpoXvFmNC9TcN_GslddyyTmbJw5_X6E_NC5AbnjfFssL_O2TmSbYg9a7XURfV4O9y8wYh1bFhRZIOaU1UHsUFPMMQ4dkygQCnBiH9J3A4GHnBxpT56pHwJKMO8P99s4rQ:1vq3jS:kC_J6ibKlbNLgdLDHmQi96JEwx9ok6aZ0d8NWbcul1M", "expire_date": "2026-02-25T06:29:50.931Z"}}, {"model": "sessions.session", "pk": "dq3wm8fy1aiaee75ak89jjfsdguna437", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGln-xjYlPWeIvN5dHECxFCcV4u4QKQW0b2beS4x5W-u4dVrGCcVZRHH63SCXB807wHueb02WNq_LBHJX5EG7vDak5-Vw_w5q7vVbgy4WiNBiHJBJKQ8OEhRdnHeGDUQKhjVn5MQqRG9pQA3ZpuADKxDvDxudOPc:1wHJih:yv3Pz-A_kSDphiY0XnF2lwG498XdRaYzu-WEZOGYgN0", "expire_date": "2026-05-11T11:01:43.530Z"}}, {"model": "sessions.session", "pk": "hjqzsv1ygnwa4rxzrhabgg5ynxm1syjk", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlmyYztrSnrOYO0vJIASKU4qxN3BUgpoXvFmNC9TcN_GslddyyTmbJw5_X6E_NC5AbnjfFssL_O2TmSbYg9a7XURfV4O9y8wYh1bFhRZIOaU1UHsUFPMMQ4dkygQCnBiH9J3A4GHnBxpT56pHwJKMO8P99s4rQ:1vkL1Q:cQnmFmtXLIhB_hyLgdRtVYNR8UtSNobSzrP82Itqy08", "expire_date": "2026-02-09T11:44:44.901Z"}}, {"model": "sessions.session", "pk": "jn13anqasw6vt0rezr7m6ldt03iecw5t", "fields": {"session_data": "e30:1vkKY6:jp5HTJp9q3cfHrA_5b0EuNZyt2ViR0FCG6tqyEpOgnA", "expire_date": "2026-02-09T11:14:26.791Z"}}, {"model": "sessions.session", "pk": "k4squfrpri8h28rpbmikjl1pn3adczjl", "fields": {"session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1wHJnM:-9SPpiUL38BnEeOxOf7UOPw4IBQBeOz4Gp5-AbwT4_0", "expire_date": "2026-05-11T11:06:32.533Z"}}, {"model": "sessions.session", "pk": "m5n5l9nzrycnbl6ka9rl6cn17303le7l", "fields": {"session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1w2mrk:3MCL-1_ypOjpM9hCakF50UAvUIOsmjkq2AFXun1i2Vs", "expire_date": "2026-04-01T09:07:00.707Z"}}, {"model": "api.profile", "pk": 1, "fields": {"user": 2, "role": "student"}}, {"model": "api.profile", "pk": 2, "fields": {"user": 1, "role": "teacher"}}, {"model": "api.profile", "pk": 3, "fields": {"user": 3, "role": "student"}}, {"model": "api.profile", "pk": 4, "fields": {"user": 4, "role": "student"}}, {"model": "api.profile", "pk": 5, "fields": {"user": 5, "role": "student"}}, {"model": "api.profile", "pk": 6, "fields": {"user": 6, "role": "student"}}, {"model": "api.profile", "pk": 7, "fields": {"user": 7, "role": "admin"}}, {"model": "api.profile", "pk": 8, "fields": {"user": 8, "role": "admin"}}, {"model": "api.profile", "pk": 9, "fields": {"user": 9, "role": "admin"}}, {"model": "api.profile", "pk": 10, "fields": {"user": 10, "role": "admin"}}, {"model": "api.profile", "pk": 11, "fields": {"user": 11, "role": "admin"}}, {"model": "api.course", "pk": 1, "fields": {"title": "Key Stage 3: Algebra", "description": "Introducing algebraic manipulation", "teacher": 1, "created_at": "2026-01-26T08:03:31.939Z", "students": [1, 2, 3, 4, 5, 6, 8, 11]}}, {"model": "api.course", "pk": 2, "fields": {"title": "Key Stage 3: Geometry", "description": "Shape & Space", "teacher": 1, "created_at": "2026-02-04T08:47:58.683Z", "students": [1, 2, 3, 4, 5]}}, {"model": "api.course", "pk": 3, "fields": {"title": "Key Stage 4: Probability", "description": "Introduction to Probability", "teacher": 1, "created_at": "2026-02-23T09:45:37.277Z", "students": [1, 2, 4, 11]}}, {"model": "api.course", "pk": 12, "fields": {"title": "sss", "description": "ssss", "teacher": 1, "created_at": "2026-04-27T13:23:36.537Z", "students": []}}, {"model": "api.lesson", "pk": 1, "fields": {"course": 1, "title": "1: Expressions", "content": "Introduce unknowns", "video_url": "https://www.youtube.com/watch?v=UVkpH6KWFnk", "order": 1}}, {"model": "api.lesson", "pk": 2, "fields": {"course": 1, "title": "2: Simplifying expressions", "content": "Simplifying algebraic expressions", "video_url": "https://www.youtube.com/watch?v=UVkpH6KWFnk", "order": 2}}, {"model": "api.lesson", "pk": 3, "fields": {"course": 2, "title": "Angle drawing and measuring", "content": "Use a protractor to draw an angle", "video_url": "https://www.youtube.com/watch?v=FBopx1rCSPM", "order": 1}}, {"model": "api.lesson", "pk": 4, "fields": {"course": 2, "title": "Label and name angles", "content": "basics of how to to name angles", "video_url": "https://www.youtube.com/watch?v=_R79iRk1m-U", "order": 2}}, {"model": "api.lesson", "pk": 5, "fields": {"course": 2, "title": "Measure obtuse and reflex angles", "content": "How to use a protractor to measure obtuse angles", "video_url": "https://www.youtube.com/watch?v=j5D7acsExxw", "order": 3}}, {"model": "api.lesson", "pk": 6, "fields": {"course": 3, "title": "Calculate the probabilities of independent combined events", "content": "Two events, $A$ and $B$, are independent if the occurrence of $A$ does not change the probability of $B$ occurring.", "video_url": "https://www.youtube.com/watch?v=nS9OIdluBww", "order": 1}}, {"model": "api.lesson", "pk": 7, "fields": {"course": 3, "title": "Calculate the probabilities of dependent combined events", "content": "For dependent events, we cannot simply multiply the original probabilities. We must account for the new state of the world after the first event occurs.", "video_url": "https://www.youtube.com/watch?v=FSYxsHbKWzo", "order": 2}}, {"model": "api.lessonprogress", "pk": 1, "fields": {"user": 1, "lesson": 1, "is_completed": true, "completed_at": "2026-02-02T08:10:12.247Z"}}, {"model": "api.lessonprogress", "pk": 2, "fields": {"user": 1, "lesson": 2, "is_completed": true, "completed_at": "2026-02-02T10:07:19.678Z"}}, {"model": "api.lessonprogress", "pk": 3, "fields": {"user": 3, "lesson": 3, "is_completed": true, "completed_at": "2026-02-04T08:58:01.723Z"}}, {"model": "api.lessonprogress", "pk": 4, "fields": {"user": 3, "lesson": 4, "is_completed": true, "completed_at": "2026-02-04T08:58:41.564Z"}}, {"model": "api.lessonprogress", "pk": 5, "fields": {"user": 3, "lesson": 5, "is_completed": true, "completed_at": "2026-02-04T08:59:14.630Z"}}, {"model": "api.lessonprogress", "pk": 6, "fields": {"user": 3, "lesson": 1, "is_completed": true, "completed_at": "2026-02-04T09:43:07.983Z"}}, {"model": "api.lessonprogress", "pk": 7, "fields": {"user": 1, "lesson": 3, "is_completed": true, "completed_at": "2026-02-04T10:48:59.243Z"}}, {"model": "api.lessonprogress", "pk": 8, "fields": {"user": 1, "lesson": 4, "is_completed": true, "completed_at": "2026-02-04T10:49:59.463Z"}}, {"model": "api.lessonprogress", "pk": 9, "fields": {"user": 4, "lesson": 3, "is_completed": true, "completed_at": "2026-02-04T11:11:38.497Z"}}, {"model": "api.lessonprogress", "pk": 10, "fields": {"user": 4, "lesson": 4, "is_completed": true, "completed_at": "2026-02-04T11:11:42.064Z"}}, {"model": "api.lessonprogress", "pk": 11, "fields": {"user": 4, "lesson": 5, "is_completed": true, "completed_at": "2026-02-04T11:11:44.352Z"}}, {"model": "api.lessonprogress", "pk": 12, "fields": {"user": 4, "lesson": 1, "is_completed": true, "completed_at": "2026-02-04T11:19:26.433Z"}}, {"model": "api.lessonprogress", "pk": 13, "fields": {"user": 4, "lesson": 2, "is_completed": true, "completed_at": "2026-02-04T11:19:31.248Z"}}, {"model": "api.lessonprogress", "pk": 14, "fields": {"user": 2, "lesson": 1, "is_completed": true, "completed_at": "2026-02-04T11:45:05.370Z"}}, {"model": "api.lessonprogress", "pk": 15, "fields": {"user": 2, "lesson": 2, "is_completed": true, "completed_at": "2026-02-04T11:45:10.958Z"}}, {"model": "api.lessonprogress", "pk": 16, "fields": {"user": 2, "lesson": 3, "is_completed": true, "completed_at": "2026-02-04T11:45:23.823Z"}}, {"model": "api.lessonprogress", "pk": 17, "fields": {"user": 2, "lesson": 4, "is_completed": true, "completed_at": "2026-02-04T11:45:25.255Z"}}, {"model": "api.lessonprogress", "pk": 18, "fields": {"user": 2, "lesson": 5, "is_completed": true, "completed_at": "2026-02-04T11:45:27.047Z"}}, {"model": "api.lessonprogress", "pk": 19, "fields": {"user": 1, "lesson": 5, "is_completed": true, "completed_at": "2026-02-11T06:46:27.056Z"}}, {"model": "api.lessonprogress", "pk": 20, "fields": {"user": 2, "lesson": 6, "is_completed": true, "completed_at": "2026-02-23T10:55:48.776Z"}}, {"model": "api.lessonprogress", "pk": 21, "fields": {"user": 1, "lesson": 6, "is_completed": true, "completed_at": "2026-03-04T08:16:21.051Z"}}, {"model": "api.lessonprogress", "pk": 22, "fields": {"user": 1, "lesson": 7, "is_completed": true, "completed_at": "2026-03-04T08:16:43.411Z"}}, {"model": "api.lessonprogress", "pk": 23, "fields": {"user": 6, "lesson": 1, "is_completed": true, "completed_at": "2026-03-18T11:55:33.977Z"}}, {"model": "api.lessonprogress", "pk": 24, "fields": {"user": 6, "lesson": 2, "is_completed": true, "completed_at": "2026-03-18T11:55:40.011Z"}}, {"model": "api.lessonprogress", "pk": 25, "fields": {"user": 11, "lesson": 1, "is_completed": true, "completed_at": "2026-04-27T11:39:49.913Z"}}, {"model": "api.lessonprogress", "pk": 26, "fields": {"user": 11, "lesson": 2, "is_completed": true, "completed_at": "2026-04-27T11:39:52.336Z"}}, {"model": "api.lessonprogress", "pk": 27, "fields": {"user": 8, "lesson": 1, "is_completed": true, "completed_at": "2026-04-27T12:49:44.499Z"}}, {"model": "api.lessonprogress", "pk": 28, "fields": {"user": 8, "lesson": 2, "is_completed": true, "completed_at": "2026-04-27T12:50:25.920Z"}}, {"model": "api.lessonprogress", "pk": 29, "fields": {"user": 11, "lesson": 6, "is_completed": true, "completed_at": "2026-04-27T13:31:28.569Z"}}]
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-01-26T08:03:31.940Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-01-26T08:13:24.921Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra - 1: Expressions",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-01-26T08:14:21.807Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Key Stage 3: Algebra - 2: Simplifying expressions",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-01-26T09:25:46.746Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Students\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-01-26T09:44:10.230Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "student_one",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-02-02T12:09:33.693Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Key Stage 3: Algebra - 2: Simplifying expressions",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-02-02T12:09:40.548Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra - 1: Expressions",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-02-04T06:52:24.312Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra - 1: Expressions",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2026-02-04T06:52:50.427Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra - 1: Expressions",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2026-02-04T06:54:42.379Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Key Stage 3: Algebra - 2: Simplifying expressions",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2026-02-04T08:37:42.016Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "student_two",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2026-02-04T08:47:58.693Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "KS3: Geometry",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2026-02-04T08:48:29.347Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Key Stage 3: Geometry",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2026-02-04T08:52:40.108Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Key Stage 3: Geometry - Angle drawing and measuring",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2026-02-04T08:53:44.257Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Key Stage 3: Geometry - Label and name angles",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2026-02-04T08:55:31.976Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Key Stage 3: Geometry - Measure obtuse and reflex angles",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2026-02-04T11:10:54.533Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "student_three",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2026-02-20T09:30:50.951Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "guest",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2026-02-20T09:33:37.374Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Key Stage 3: Algebra",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Students\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2026-02-20T09:33:42.892Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Key Stage 3: Geometry",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Students\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2026-02-20T09:36:44.882Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "guest",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2026-02-20T10:14:05.702Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "student_three",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2026-02-23T11:11:30.856Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Key Stage 4: Probability - Calculate the probabilities of dependent combined events",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2026-02-23T11:12:13.804Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Key Stage 4: Probability - Calculate the probabilities of independent combined events",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Video url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2026-02-23T11:12:18.440Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Key Stage 4: Probability - Calculate the probabilities of independent combined events",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2026-02-23T11:12:24.607Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Key Stage 4: Probability - Calculate the probabilities of dependent combined events",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2026-04-27T10:55:35.531Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "teacher_ivan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2026-04-27T11:52:37.138Z",
+      "user": 11,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "teacher_ivan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2026-04-27T13:25:02.012Z",
+      "user": 11,
+      "content_type": 4,
+      "object_id": "11",
+      "object_repr": "superadmin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$EEA1JAFAGoIXYiPGsH1bRx$MzbdIirdwxAXcoW2vmvAiJANrYqZ7bDCfSnzG1aWbjs=",
+      "last_login": "2026-04-27T11:06:32.530Z",
+      "is_superuser": true,
+      "username": "teacher_ivan",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-01-24T14:36:41Z",
+      "groups": [],
+      "user_permissions": [
+        1, 2, 3, 4, 25, 26, 27, 28, 41, 42, 43, 44, 29, 30, 31, 32, 37, 38, 39,
+        40, 33, 34, 35, 36, 9, 10, 11, 12, 5, 6, 7, 8, 13, 14, 15, 16, 17, 18,
+        19, 20, 21, 22, 23, 24
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$jGdyjPWY9pIPUz3qVdif69$1IlZ8++pytY783NpUrK0JbZCq/uA+4eN32ZUkCc6hw0=",
+      "last_login": "2026-01-26T09:48:36.951Z",
+      "is_superuser": false,
+      "username": "student_one",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-01-26T09:44:09.773Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$T2uiAGzWJnGl7P58UhcMOD$/UGvGx76+Q1/07wHzoPxXe7JZv5ePv3VSMkOTZwyWno=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "student_two",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-02-04T08:37:41.519Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$LLuGtWrftTpmRnNibisFWq$zL2bx+Swiqw3MSBtEbW60EcImLk5f0C48BhUL2qR518=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "student_three",
+      "first_name": "Joe",
+      "last_name": "Bloggs",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-02-04T11:10:54Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$Vo09EQuO0j44JC09Zo1YNe$DAhRhDub8IHGx/g0m5ZQjT8EW3o94PD2dNWkv1/EEZE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "student_four",
+      "first_name": "Guest",
+      "last_name": "Account",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-02-20T09:30:50Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$wNcqFlRfeHAuhF38sVd20V$Cuc303DLnOcFklqW9HCEUcpVRWY5bgbZ/1V9Cpnn6V4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "student_five",
+      "first_name": "joe",
+      "last_name": "bloggs",
+      "email": "joebloggs@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-18T11:54:23.473Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$ZXjIfcvJ4WwE2n6AW7ORH3$QntroHjPwF8nqa1ouCqPiUNf+abLWhHK+LbcT6gJsQs=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "render_admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-04-22T14:16:14.281Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$mhoeBv4YobnCSybOD6iMCV$TlejpgjT8C92rw2gQUxMuow3Thi5chGBk71kGmUrCZU=",
+      "last_login": "2026-04-27T11:01:43.527Z",
+      "is_superuser": false,
+      "username": "recruiter_demo",
+      "first_name": "",
+      "last_name": "",
+      "email": "recruiter@demo.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-22T14:16:14.739Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$zWsr0Pp92L25cFwoRIbzKD$H+deLn3oMq0olhFYTZ20PMLS0iA3xrXjuR/62RtUKgE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "hiring_manager",
+      "first_name": "",
+      "last_name": "",
+      "email": "hiring@demo.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-22T14:16:15.190Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$o0BibVF7YqUoLuzi3AT6Qf$j9s7g3yBpBw0Mtnz+4qX59GAza0ZrjjX3ok5FJcjidg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "tech_recruiter",
+      "first_name": "",
+      "last_name": "",
+      "email": "tech@demo.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-22T14:16:15.644Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$1200000$WziSXIduWhNsulBWvIFajs$QVKvqhzDxs3BivnrYrkhM5fzUYdzev8Fh4gGjgtNth4=",
+      "last_login": "2026-04-27T11:38:36Z",
+      "is_superuser": true,
+      "username": "superadmin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@lms.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-04-27T11:37:04Z",
+      "groups": [],
+      "user_permissions": [
+        1, 2, 3, 4, 25, 26, 27, 28, 41, 42, 43, 44, 29, 30, 31, 32, 37, 38, 39,
+        40, 33, 34, 35, 36, 9, 10, 11, 12, 5, 6, 7, 8, 13, 14, 15, 16, 17, 18,
+        19, 20, 21, 22, 23, 24
+      ]
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "5loxq5ledad3gvz26vcatrjwwimcmja9",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1vx1MR:qeqLiGa2FqXcVYMw6aNEvX2OLr-JEfQGSKwMUv6IpaA",
+      "expire_date": "2026-03-16T11:22:51.131Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "7fqwewgs4y20r37m1kzfd7eb7mopvfp6",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAGKFSX7nsGMsNMpWpoUtqV8e7apAvd_vfef6mE21rS1mRJE6uLAlCn35EwP6TuhO9Yb7POc12XifSu6IM2Pcwsz-vh_h0UbOVbm9CP4mLonc8RMowA1rDlDGACdmSctWfskMV5wEAEEiXb6CzGQB7U-wPpbDd3:1wHKVx:9g2MIDj-D_uINmgGiRQ-PhtPAduGU2GZfy9FEg-RkuM",
+      "expire_date": "2026-05-11T11:52:37.148Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "9s0oo7vslywlxipio6asrz7q79yrdtfj",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1wCtxB:9oQGDK4mm1JoTdFixPS3riN-4snqYkp-xMpzs9g7wok",
+      "expire_date": "2026-04-29T06:42:25.733Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b3lom8825orfwzd8mjvozzvs80tkb98l",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlmyYztrSnrOYO0vJIASKU4qxN3BUgpoXvFmNC9TcN_GslddyyTmbJw5_X6E_NC5AbnjfFssL_O2TmSbYg9a7XURfV4O9y8wYh1bFhRZIOaU1UHsUFPMMQ4dkygQCnBiH9J3A4GHnBxpT56pHwJKMO8P99s4rQ:1vkKdg:M0PY1tEsg3tP7bLcZJWvuhR2j7KELEIkBxl-pCpf4mM",
+      "expire_date": "2026-02-09T11:20:12.552Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "cgekgdl63hzmbyqidm0drigt4w289w5e",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlmyYztrSnrOYO0vJIASKU4qxN3BUgpoXvFmNC9TcN_GslddyyTmbJw5_X6E_NC5AbnjfFssL_O2TmSbYg9a7XURfV4O9y8wYh1bFhRZIOaU1UHsUFPMMQ4dkygQCnBiH9J3A4GHnBxpT56pHwJKMO8P99s4rQ:1vq3jS:kC_J6ibKlbNLgdLDHmQi96JEwx9ok6aZ0d8NWbcul1M",
+      "expire_date": "2026-02-25T06:29:50.931Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dq3wm8fy1aiaee75ak89jjfsdguna437",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-xjYlPWeIvN5dHECxFCcV4u4QKQW0b2beS4x5W-u4dVrGCcVZRHH63SCXB807wHueb02WNq_LBHJX5EG7vDak5-Vw_w5q7vVbgy4WiNBiHJBJKQ8OEhRdnHeGDUQKhjVn5MQqRG9pQA3ZpuADKxDvDxudOPc:1wHJih:yv3Pz-A_kSDphiY0XnF2lwG498XdRaYzu-WEZOGYgN0",
+      "expire_date": "2026-05-11T11:01:43.530Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "hjqzsv1ygnwa4rxzrhabgg5ynxm1syjk",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlmyYztrSnrOYO0vJIASKU4qxN3BUgpoXvFmNC9TcN_GslddyyTmbJw5_X6E_NC5AbnjfFssL_O2TmSbYg9a7XURfV4O9y8wYh1bFhRZIOaU1UHsUFPMMQ4dkygQCnBiH9J3A4GHnBxpT56pHwJKMO8P99s4rQ:1vkL1Q:cQnmFmtXLIhB_hyLgdRtVYNR8UtSNobSzrP82Itqy08",
+      "expire_date": "2026-02-09T11:44:44.901Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jn13anqasw6vt0rezr7m6ldt03iecw5t",
+    "fields": {
+      "session_data": "e30:1vkKY6:jp5HTJp9q3cfHrA_5b0EuNZyt2ViR0FCG6tqyEpOgnA",
+      "expire_date": "2026-02-09T11:14:26.791Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "k4squfrpri8h28rpbmikjl1pn3adczjl",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1wHJnM:-9SPpiUL38BnEeOxOf7UOPw4IBQBeOz4Gp5-AbwT4_0",
+      "expire_date": "2026-05-11T11:06:32.533Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "m5n5l9nzrycnbl6ka9rl6cn17303le7l",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQBe9CHSEWwy6kTO8zIH4OTiKQjF1FuXtsyUXSvpl5b-b8tha39by4ObErA3b53YKPz1wPkB6-3huPra7LHPih8JN2PraUX7fT_Tsovpe9liiMFQqS0X5SGIMAUjlpD0QIOqOESUYCNMEO1qhBBjCEu5NJGB3Y5wuufTZi:1w2mrk:3MCL-1_ypOjpM9hCakF50UAvUIOsmjkq2AFXun1i2Vs",
+      "expire_date": "2026-04-01T09:07:00.707Z"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "role": "student"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "role": "teacher"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "role": "student"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "role": "student"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "role": "student"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "role": "student"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "role": "admin"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "role": "admin"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "role": "admin"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "role": "admin"
+    }
+  },
+  {
+    "model": "api.profile",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "role": "admin"
+    }
+  },
+  {
+    "model": "api.course",
+    "pk": 1,
+    "fields": {
+      "title": "Key Stage 3: Algebra",
+      "description": "Introducing algebraic manipulation",
+      "teacher": 1,
+      "created_at": "2026-01-26T08:03:31.939Z",
+      "students": [1, 2, 3, 4, 5, 6, 8, 11]
+    }
+  },
+  {
+    "model": "api.course",
+    "pk": 2,
+    "fields": {
+      "title": "Key Stage 3: Geometry",
+      "description": "Shape & Space",
+      "teacher": 1,
+      "created_at": "2026-02-04T08:47:58.683Z",
+      "students": [1, 2, 3, 4, 5]
+    }
+  },
+  {
+    "model": "api.course",
+    "pk": 3,
+    "fields": {
+      "title": "Key Stage 4: Probability",
+      "description": "Introduction to Probability",
+      "teacher": 1,
+      "created_at": "2026-02-23T09:45:37.277Z",
+      "students": [1, 2, 4, 11]
+    }
+  },
+  {
+    "model": "api.course",
+    "pk": 12,
+    "fields": {
+      "title": "sss",
+      "description": "ssss",
+      "teacher": 1,
+      "created_at": "2026-04-27T13:23:36.537Z",
+      "students": []
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "title": "1: Expressions",
+      "content": "Introduce unknowns",
+      "video_url": "https://www.youtube.com/watch?v=UVkpH6KWFnk",
+      "order": 1
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 2,
+    "fields": {
+      "course": 1,
+      "title": "2: Simplifying expressions",
+      "content": "Simplifying algebraic expressions",
+      "video_url": "https://www.youtube.com/watch?v=UVkpH6KWFnk",
+      "order": 2
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "title": "Angle drawing and measuring",
+      "content": "Use a protractor to draw an angle",
+      "video_url": "https://www.youtube.com/watch?v=FBopx1rCSPM",
+      "order": 1
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 4,
+    "fields": {
+      "course": 2,
+      "title": "Label and name angles",
+      "content": "basics of how to to name angles",
+      "video_url": "https://www.youtube.com/watch?v=_R79iRk1m-U",
+      "order": 2
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 5,
+    "fields": {
+      "course": 2,
+      "title": "Measure obtuse and reflex angles",
+      "content": "How to use a protractor to measure obtuse angles",
+      "video_url": "https://www.youtube.com/watch?v=j5D7acsExxw",
+      "order": 3
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 6,
+    "fields": {
+      "course": 3,
+      "title": "Calculate the probabilities of independent combined events",
+      "content": "Two events, $A$ and $B$, are independent if the occurrence of $A$ does not change the probability of $B$ occurring.",
+      "video_url": "https://www.youtube.com/watch?v=nS9OIdluBww",
+      "order": 1
+    }
+  },
+  {
+    "model": "api.lesson",
+    "pk": 7,
+    "fields": {
+      "course": 3,
+      "title": "Calculate the probabilities of dependent combined events",
+      "content": "For dependent events, we cannot simply multiply the original probabilities. We must account for the new state of the world after the first event occurs.",
+      "video_url": "https://www.youtube.com/watch?v=FSYxsHbKWzo",
+      "order": 2
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-02-02T08:10:12.247Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "lesson": 2,
+      "is_completed": true,
+      "completed_at": "2026-02-02T10:07:19.678Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "lesson": 3,
+      "is_completed": true,
+      "completed_at": "2026-02-04T08:58:01.723Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "lesson": 4,
+      "is_completed": true,
+      "completed_at": "2026-02-04T08:58:41.564Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "lesson": 5,
+      "is_completed": true,
+      "completed_at": "2026-02-04T08:59:14.630Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-02-04T09:43:07.983Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "lesson": 3,
+      "is_completed": true,
+      "completed_at": "2026-02-04T10:48:59.243Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "lesson": 4,
+      "is_completed": true,
+      "completed_at": "2026-02-04T10:49:59.463Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 9,
+    "fields": {
+      "user": 4,
+      "lesson": 3,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:11:38.497Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 10,
+    "fields": {
+      "user": 4,
+      "lesson": 4,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:11:42.064Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 11,
+    "fields": {
+      "user": 4,
+      "lesson": 5,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:11:44.352Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 12,
+    "fields": {
+      "user": 4,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:19:26.433Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 13,
+    "fields": {
+      "user": 4,
+      "lesson": 2,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:19:31.248Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 14,
+    "fields": {
+      "user": 2,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:45:05.370Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 15,
+    "fields": {
+      "user": 2,
+      "lesson": 2,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:45:10.958Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 16,
+    "fields": {
+      "user": 2,
+      "lesson": 3,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:45:23.823Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 17,
+    "fields": {
+      "user": 2,
+      "lesson": 4,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:45:25.255Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 18,
+    "fields": {
+      "user": 2,
+      "lesson": 5,
+      "is_completed": true,
+      "completed_at": "2026-02-04T11:45:27.047Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "lesson": 5,
+      "is_completed": true,
+      "completed_at": "2026-02-11T06:46:27.056Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 20,
+    "fields": {
+      "user": 2,
+      "lesson": 6,
+      "is_completed": true,
+      "completed_at": "2026-02-23T10:55:48.776Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 21,
+    "fields": {
+      "user": 1,
+      "lesson": 6,
+      "is_completed": true,
+      "completed_at": "2026-03-04T08:16:21.051Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "lesson": 7,
+      "is_completed": true,
+      "completed_at": "2026-03-04T08:16:43.411Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 23,
+    "fields": {
+      "user": 6,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-03-18T11:55:33.977Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 24,
+    "fields": {
+      "user": 6,
+      "lesson": 2,
+      "is_completed": true,
+      "completed_at": "2026-03-18T11:55:40.011Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 25,
+    "fields": {
+      "user": 11,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-04-27T11:39:49.913Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 26,
+    "fields": {
+      "user": 11,
+      "lesson": 2,
+      "is_completed": true,
+      "completed_at": "2026-04-27T11:39:52.336Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 27,
+    "fields": {
+      "user": 8,
+      "lesson": 1,
+      "is_completed": true,
+      "completed_at": "2026-04-27T12:49:44.499Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 28,
+    "fields": {
+      "user": 8,
+      "lesson": 2,
+      "is_completed": true,
+      "completed_at": "2026-04-27T12:50:25.920Z"
+    }
+  },
+  {
+    "model": "api.lessonprogress",
+    "pk": 29,
+    "fields": {
+      "user": 11,
+      "lesson": 6,
+      "is_completed": true,
+      "completed_at": "2026-04-27T13:31:28.569Z"
+    }
+  }
+]
