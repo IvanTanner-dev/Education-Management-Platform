@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import InstructorDashboard from "../InstructorDashboard";
+import InstructorDashboard from "../../pages/InstructorDashboard";
 import { BrowserRouter } from "react-router-dom";
 import api from "../../api";
 
@@ -219,5 +219,43 @@ describe("InstructorDashboard Page", () => {
       screen.queryByText(/Course Insights: My Course/i),
     ).not.toBeInTheDocument();
     expect(screen.getByText(/My Course/i)).toBeInTheDocument();
+  });
+
+  it("requires exact course title for deletion", async () => {
+    const mockUser = { username: "teacher_ivan" };
+    api.delete.mockResolvedValue({});
+
+    render(
+      <BrowserRouter>
+        <InstructorDashboard
+          courses={mockCourses}
+          setCourses={setCourses}
+          user={mockUser}
+        />
+      </BrowserRouter>,
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: /^Delete$/i }));
+
+    expect(screen.getByText(/Dangerous Action/i)).toBeInTheDocument();
+
+    const deleteBtn = screen.getByRole("button", {
+      name: /Delete Permanently/i,
+    });
+    expect(deleteBtn).toBeDisabled();
+
+    const input = screen.getByPlaceholderText(/Type course title here.../i);
+    fireEvent.change(input, { target: { value: "Wrong Title" } });
+    expect(deleteBtn).toBeDisabled();
+
+    fireEvent.change(input, { target: { value: "My Course" } });
+    expect(deleteBtn).not.toBeDisabled();
+
+    fireEvent.click(deleteBtn);
+
+    await waitFor(() => {
+      expect(api.delete).toHaveBeenCalledWith("/api/courses/1/");
+      expect(setCourses).toHaveBeenCalled();
+    });
   });
 });
