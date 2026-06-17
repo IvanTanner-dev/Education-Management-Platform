@@ -354,7 +354,7 @@ const InstructorDashboard = ({ courses, setCourses, user }) => {
                       {course.students?.length || 0} Students Enrolled
                     </p>
                   </div>
-                  <div className="flex gap-2 w-full sm:w-auto">
+                  <div className="w-full sm:w-auto grid grid-cols-2 sm:flex gap-2">
                     <Link
                       to={`/instructor/course/${course.id}/lessons`}
                       className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-blue-600 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
@@ -381,7 +381,7 @@ const InstructorDashboard = ({ courses, setCourses, user }) => {
                     </button>
                     <button
                       onClick={() => setDeletingCourse(course)}
-                      className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-red-600 bg-red-50 rounded-lg hover:bg-red-100 transition-colors"
+                      className="flex-1 sm:flex-none text-center px-4 py-2 text-sm font-semibold text-red-600 bg-red-50 rounded-lg hover:bg-red-100 transition-colors col-span-2 sm:col-span-1"
                     >
                       Delete
                     </button>
