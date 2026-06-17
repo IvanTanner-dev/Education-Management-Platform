@@ -67,9 +67,7 @@ const AdminPanel = () => {
         `/api/admin/users/${editingUser.id}/`,
         payload,
       );
-      setUsers(
-        users.map((u) => (u.id === editingUser.id ? response.data : u)),
-      );
+      setUsers(users.map((u) => (u.id === editingUser.id ? response.data : u)));
       handleCloseEditModal();
     } catch (err) {
       console.error("Update failed:", err);
@@ -142,9 +140,10 @@ const AdminPanel = () => {
         </div>
       </div>
 
-      {/* USER LIST */}
+      {/* USER LIST - RESPONSIVE DESIGN */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-        <div className="overflow-x-auto">
+        {/* DESKTOP TABLE VIEW */}
+        <div className="hidden md:block overflow-x-auto">
           <table className="w-full text-left">
             <thead className="bg-slate-50 border-b border-slate-200">
               <tr>
@@ -222,6 +221,69 @@ const AdminPanel = () => {
             </tbody>
           </table>
         </div>
+
+        {/* MOBILE CARD VIEW */}
+        <div className="md:hidden">
+          {filteredUsers.map((user) => {
+            const userRole = user.role || user.profile?.role || "student";
+            return (
+              <div
+                key={user.id}
+                className="border-b border-slate-100 last:border-b-0"
+              >
+                <div className="p-4 flex flex-col gap-3">
+                  <div className="flex items-start justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center font-bold text-slate-500">
+                        {user.first_name?.[0]}
+                        {user.last_name?.[0]}
+                      </div>
+                      <div className="flex-1">
+                        <div className="font-bold text-slate-900">
+                          {user.first_name} {user.last_name}
+                        </div>
+                        <div className="text-xs text-slate-400">
+                          @{user.username}
+                        </div>
+                        <div className="text-xs text-slate-400">
+                          {user.email}
+                        </div>
+                      </div>
+                    </div>
+                    <span
+                      className={`px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-tighter ${
+                        userRole === "admin"
+                          ? "bg-purple-100 text-purple-700"
+                          : userRole === "teacher"
+                            ? "bg-blue-100 text-blue-700"
+                            : "bg-emerald-100 text-emerald-700"
+                      }`}
+                    >
+                      {userRole}
+                    </span>
+                  </div>
+
+                  <div className="flex gap-2 justify-end mt-2">
+                    <button
+                      onClick={() => handleOpenEditModal(user)}
+                      className="flex-1 py-2 bg-slate-50 hover:bg-slate-100 text-slate-600 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2"
+                    >
+                      <span>✎</span>
+                      <span>Edit</span>
+                    </button>
+                    <button
+                      onClick={() => handleRemoveUser(user.id)}
+                      className="flex-1 py-2 bg-red-50 hover:bg-red-100 text-red-600 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2"
+                    >
+                      <span>✕</span>
+                      <span>Remove</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
         {filteredUsers.length === 0 && !loading && (
           <div className="py-20 text-center text-slate-400 font-medium">
             No users found matching your criteria.
@@ -247,7 +309,7 @@ const AdminPanel = () => {
             <form onSubmit={handleUpdateUser} className="p-6 space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label 
+                  <label
                     htmlFor="first_name"
                     className="block text-xs font-bold text-slate-400 uppercase mb-1"
                   >
@@ -263,7 +325,7 @@ const AdminPanel = () => {
                   />
                 </div>
                 <div>
-                  <label 
+                  <label
                     htmlFor="last_name"
                     className="block text-xs font-bold text-slate-400 uppercase mb-1"
                   >
@@ -280,7 +342,7 @@ const AdminPanel = () => {
                 </div>
               </div>
               <div>
-                <label 
+                <label
                   htmlFor="email"
                   className="block text-xs font-bold text-slate-400 uppercase mb-1"
                 >
@@ -296,7 +358,7 @@ const AdminPanel = () => {
                 />
               </div>
               <div>
-                <label 
+                <label
                   htmlFor="role"
                   className="block text-xs font-bold text-slate-400 uppercase mb-1"
                 >
@@ -336,6 +398,5 @@ const AdminPanel = () => {
     </div>
   );
 };
-
 
 export default AdminPanel;
