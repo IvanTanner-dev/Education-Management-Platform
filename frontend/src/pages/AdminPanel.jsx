@@ -142,8 +142,8 @@ const AdminPanel = () => {
 
       {/* USER LIST - RESPONSIVE DESIGN */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-        {/* DESKTOP TABLE VIEW */}
-        <div className="hidden md:block overflow-x-auto">
+        {/* DESKTOP TABLE VIEW (lg and up) */}
+        <div className="hidden lg:block overflow-x-auto">
           <table className="w-full text-left">
             <thead className="bg-slate-50 border-b border-slate-200">
               <tr>
@@ -199,19 +199,21 @@ const AdminPanel = () => {
                       <div className="flex justify-end gap-2">
                         <button
                           onClick={() => handleOpenEditModal(user)}
-                          className="p-2 text-slate-400 hover:text-blue-600 transition-colors text-xl"
+                          className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-slate-600 rounded-xl text-sm font-bold transition-all flex items-center gap-2"
                           aria-label={`Edit ${user.username}`}
                           title="Edit User"
                         >
-                          ✎
+                          <span>✎</span>
+                          <span>Edit</span>
                         </button>
                         <button
                           onClick={() => handleRemoveUser(user.id)}
-                          className="p-2 text-slate-400 hover:text-red-600 transition-colors text-xl"
+                          className="px-4 py-2 bg-red-50 hover:bg-red-100 text-red-600 rounded-xl text-sm font-bold transition-all flex items-center gap-2"
                           aria-label={`Remove ${user.username}`}
                           title="Remove User"
                         >
-                          ✕
+                          <span>✕</span>
+                          <span>Remove</span>
                         </button>
                       </div>
                     </td>
@@ -222,8 +224,8 @@ const AdminPanel = () => {
           </table>
         </div>
 
-        {/* MOBILE CARD VIEW */}
-        <div className="md:hidden">
+        {/* TABLET & MOBILE VIEW (up to lg) */}
+        <div className="lg:hidden">
           {filteredUsers.map((user) => {
             const userRole = user.role || user.profile?.role || "student";
             return (
