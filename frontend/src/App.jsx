@@ -139,7 +139,7 @@ function App() {
           </div>
         </header>
 
-        <main id="main-content" className="p-10 min-h-[calc(100vh-64px)]">
+        <main id="main-content" className="p-4 md:p-10 min-h-[calc(100vh-64px)]">
           <Routes>
             <Route
               path="/"

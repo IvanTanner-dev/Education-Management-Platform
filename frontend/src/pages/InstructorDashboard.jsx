@@ -344,7 +344,7 @@ const InstructorDashboard = ({ courses, setCourses, user }) => {
               myCourses.map((course) => (
                 <div
                   key={course.id}
-                  className="bg-white border border-slate-200 rounded-2xl p-4 md:p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-sm hover:border-blue-200 transition-colors"
+                  className="bg-white border border-slate-200 rounded-2xl p-4 md:p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-sm hover:border-blue-200 transition-colors overflow-hidden"
                 >
                   <div>
                     <h3 className="text-lg font-bold text-slate-800">
